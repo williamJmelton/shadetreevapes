@@ -1,0 +1,187 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+$shadeTreeRed: #e53935;
+$shadeTreeGreen: #81d583;
+
+
+body {
+  // font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.logo-brand {
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+  font-size: 2.1rem;
+}
+
+// nav a,
+// ul,
+// nav .brand-logo {
+//   color: #444;
+// }
+
+nav {
+  background-color: $shadeTreeGreen;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+nav .brand-logo {
+  display: block !important;
+}
+
+.nav-wrapper {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-links {
+  padding-right: 5%;
+}
+
+// not fucking working.
+nav ul li a{
+  color: black !important;
+}  
+
+.text-shadow {
+  text-shadow: 2px, 2px, black;
+}
+
+.nav-wrapper {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  // line-height: 0;
+  height: auto;
+  // color: rgba(255, 255, 255, 0.9); //  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fancy {
+  font-family: "Righteous", cursive;
+  // -webkit-text-stroke: 2px rgb(0, 0, 2);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.storefront {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#bullets {
+  margin: 0px 10%;
+}
+
+.contact {
+  background-color: #81d583;
+  width: 100%;
+  padding: 0px 15%;
+}
+
+#saftey {
+  // background-color: rgba(214, 214, 214, 0.4);
+  font-size: inherit;
+  // height: 100%;
+}
+
+#index-banner {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.saftey-container {
+  // position: relative;
+  height: auto;
+  min-height: 100px;
+  background-color: rgba(255, 255, 255, 0.2)
+}
+
+.hero-container {
+  // background-color: rgba(240, 248, 255, 0.2);
+  z-index: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo{
+  // z-index: 1;
+  // position: relative;
+  height: 64px;
+  z-index: 1;
+  position: absolute;
+}
+
+.brand-logo {
+  white-space: nowrap;
+  z-index: 2;
+  position: relative;
+}
+
+.header {
+  z-index: 3;
+  position: relative;
+}
+
+.slab-font {
+  font-family: 'Alfa Slab One', cursive;
+}
